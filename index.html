@@ -2,47 +2,110 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" href="logo.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MusicAnalyser</title>
-<link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-/>
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-    <div class="container">
-        <h1>MusicAnalyser Demonstração</h1>
+    <main class="container glass">
 
-        <p>
-            Veja abaixo um vídeo de demonstração do MusicAnalyser, uma aplicação voltada para Big Data, analisando dados musicais.
-        </p>
+        <header class="hero">
+            <span class="badge">
+                <i class="fa-solid fa-music"></i>
+                Desktop App em Python
+            </span>
 
-        <div class="video-wrapper">
-           <iframe
-    src="https://www.youtube.com/embed/8I85guSkIac"
-    title="MusicAnalyser Demo"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen>
-  </iframe>
-        </div>
-        
-       <a class="download-btn" href="#">
-    <i class="fas fa-download"></i>
-    Download MusicAnalyser 1.0
-</a>
+            <h1>MusicAnalyser</h1>
 
-<div class="secondary-actions">
-    <a class="secondary-btn" href="#">
-        <i class="fas fa-database"></i>
-        Download Dados 2.45GB
-    </a>
-</div>
+            <p class="subtitle">
+                Uma ferramenta poderosa para análise de grandes volumes de dados musicais,
+                com foco em performance e visualização clara.
+            </p>
+        </header>
 
-        
-    </div>
+        <section class="video-section">
+            <div class="video-wrapper">
+                <iframe
+                    src="https://www.youtube.com/embed/8I85guSkIac"
+                    title="MusicAnalyser Demo"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+
+        <section class="actions">
+            <a class="download-btn" href="https://drive.google.com/uc?export=download&id=1boJY-LM_VLhFXKFojT35-bgLLr7ekb4u">
+                <i class="fas fa-download"></i>
+                Download MusicAnalyser 1.0 <span>109 MB</span>
+            </a>
+
+            <a class="secondary-btn" href="https://drive.google.com/drive/folders/1v6TVnEp8cvj6qDLaw7XhV99nhNXj9aXg?usp=drive_link">
+                <i class="fas fa-database"></i>
+                Download Datasets <span>859 MB</span>
+            </a>
+        </section>
+
+        <section class="project-summary">
+            <h2>Sobre o Projeto</h2>
+
+            <p>
+                O <strong>MusicAnalyser</strong> é uma aplicação desktop desenvolvida em Python
+                para análise eficiente de grandes datasets musicais. Ideal para estudos,
+                experimentos e visualização de rankings por gênero.
+            </p>
+
+            <div class="features">
+                <div class="feature">
+                    <i class="fa-solid fa-file-import"></i>
+                    <span>Importa CSV, Excel, JSON e Parquet</span>
+                </div>
+
+                <div class="feature">
+                    <i class="fa-solid fa-bolt"></i>
+                    <span>Processamento rápido com DuckDB</span>
+                </div>
+
+                <div class="feature">
+                    <i class="fa-solid fa-chart-column"></i>
+                    <span>Top 10 interativo por gênero</span>
+                </div>
+
+                <div class="feature">
+                    <i class="fa-solid fa-file-export"></i>
+                    <span>Exporta PNG, PDF, CSV e Excel</span>
+                </div>
+            </div>
+
+            <h3>Tecnologias Utilizadas</h3>
+
+            <div class="tech-stack">
+                <span>Python</span>
+                <span>Pandas</span>
+                <span>DuckDB</span>
+                <span>Matplotlib</span>
+                <span>Tkinter</span>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>© 2026 · MusicAnalyser</p>
+        </footer>
+
+    </main>
 
 </body>
 </html>
