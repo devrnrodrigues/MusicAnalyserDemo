@@ -10,7 +10,13 @@
   </a>
 </p>
 
----
+# Preview
+
+### Desktop
+![Desktop](https://github.com/devrnrodrigues/MusicAnalyserDemo/blob/main/desktop.png)
+
+### Mobile
+![Mobile](https://github.com/devrnrodrigues/MusicAnalyserDemo/blob/main/mobile.png)
 
 ## O que é esse projeto?
 
@@ -50,3 +56,4 @@ Vídeo incorporado diretamente do YouTube mostrando o funcionamento da aplicaç�
 ├── logo.ico
 └── README.md
 ```
+
